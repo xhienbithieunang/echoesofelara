@@ -1,0 +1,438 @@
+html, body {
+    scroll-behavior: smooth;
+}
+#backgroundMusic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0%;
+}
+body {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    
+  }
+.container {
+    overflow-y: hidden;
+    scroll-snap-type: y mandatory;
+    margin: 0 auto;
+    width: 1440px;
+    height: 7168px;
+    background-color: transparent;
+    overflow-x: hidden;
+    position: relative;
+}
+
+p {
+    position: absolute;
+    color: #FFF;
+    line-height: 250px;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1440px;
+    flex-shrink: 0;
+    z-index: 100;
+    top: 1985px ;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+
+}
+/* click */
+#click1 {
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+#click2 {
+    top: 1450px;
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+#click3 {
+    top: 2578px;
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+#click4 {
+    top: 3750px;
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+#click5 {
+    top: 5015px;
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+#click6 {
+    top: 6014px;
+    width: 1440px;
+    height: 1024px;
+    background-color:transparent;
+    position: absolute;
+    z-index: 99;
+    opacity: 50%;
+    left: 0;
+}
+
+/* trang 1*/
+
+.parallax_trang1 img {
+    transition: transform 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    pointer-events: auto;
+    transform: scale(1.3);
+}
+
+#name {
+    transition: transform 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #415B74;
+ 
+    line-height: 250px;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1440px;
+    flex-shrink: 0;
+    z-index: 100;
+    transform: scale(0.5);
+    top: -200px;
+}
+
+#water {
+    z-index: 1;
+    filter: blur(4px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    transform: scale(1);
+    
+}
+#bush1 {
+    z-index: 2;
+    filter: blur(4px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    top: -50px;
+}
+#elara {
+    z-index: 3;
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    top: 170px;
+    transform: scale(1.5);
+
+
+}
+#tree2 {
+    z-index: 4;
+    filter: blur(2px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    top: 100px;
+}
+
+#bush2 {
+    z-index: 5;
+    filter: blur(2px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    top: -50px;
+}
+#bush3 {
+    z-index: 6;
+    filter: blur(2px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    transform: scale(1);
+
+}
+#bush4 {
+    z-index: 7;
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    transform: scale(1);
+}
+#tree3 {
+    z-index: 8;
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+    top: -250px;
+}
+
+
+/*background*/
+#BG {
+    z-index: 10;
+    flex-shrink: 0;
+    bottom: 100px;
+    position: relative ;
+    display: flex;
+}
+
+
+
+/* trang 2*/
+#tho1 {
+    transition: opacity 3s ease-in-out;
+    transition: transform 3s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    top: 1985px ;
+    left: -1000px;}
+#tho2 {
+    transition: transform 3s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    top: 1985px ;
+    left: 950px;
+    
+}
+.parallax_trang2 img {
+    transition: transform 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    object-fit: cover;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: auto;
+}
+#than {
+    width: 3840px;
+    height: 2160px;
+    flex-shrink: 0;
+    top: 905px;
+    left: -1100px;
+}
+#toc {
+    left: -304px ;
+    top: 893px;
+    width: 2000px;
+    height: 2000px;
+    flex-shrink: 0;
+}
+#tay {
+    top: 903px;
+    filter: blur(4px);
+    width: 3840px;
+    height: 2160px;
+    flex-shrink: 0;
+    left: -1100px;
+}
+#can {
+    top: 1107px;
+    left: 227px;
+    filter: blur(4px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+#phai {
+    top: 1490px;
+    left: 587px;
+    filter: blur(4px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+#trai {
+    left: -133px;
+    top: 1529px;
+    filter: blur(4px);
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+
+
+/* trang 3*/
+#tho3 {
+    transition: opacity 3s ease-in-out;
+    top: 2580px;
+    left: -450px;
+    opacity: 0%;
+
+}
+#tho4 {
+    transition: opacity 3s ease-in-out;
+    top: 3376px;
+    left: 455px;
+    opacity: 0%;
+}
+.parallax_trang3 img {
+    transition: opacity 3s ease-in-out;
+    object-fit: cover;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: auto;
+    opacity: 0%;
+}
+#elara2 {
+    transition: opacity 2s ease-in-out;
+    top: 2674px ;
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
+#lighton {
+    width: 1440px;
+    height: 7168px;
+    flex-shrink: 0;
+    transition: opacity 2s ease-in-out;
+
+}
+#light {
+    width: 1440px;
+    height: 7168px;
+    flex-shrink: 0;
+}
+#ttrai {
+    transition: opacity 1s ease-in-out;
+    width: 1440px;
+    height: 7168px;
+    flex-shrink: 0;
+
+}
+#tphai {
+    transition: opacity 1s ease-in-out;
+    width: 1440px;
+    height: 7168px;
+    flex-shrink: 0;
+
+}
+
+/* trang 4*/
+#tho5 {
+    transition: opacity 3s ease-in-out;
+    top: 4350px;
+    left: 1250px;
+    opacity: 0%;
+}
+.parallax_trang4 img {
+    transition: transform 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    object-fit: cover;
+    z-index: 11;
+    position: absolute;
+    top: 3356px;
+    left: -1270px;
+    width: 100%;
+    pointer-events: auto;
+    width: 3840px;
+    height: 2160px;
+    flex-shrink: 0;
+}
+
+/* trang 5 */
+#tho6 {
+    transition: opacity 3s ease-in-out;
+    top: 5087px ;
+    left: -450px;
+    opacity: 0%;
+}
+#tho7 {
+    transition: opacity 3s ease-in-out;
+    top: 5796px;
+    left: 450px;
+    opacity: 0%;
+}
+.parallax_trang5 img {
+    transition: transform 1s ease-in-out, left 1s ease-in-out, top 1s ease-in-out;
+    object-fit: cover;
+    z-index: 11;
+    position: absolute;
+    top: 5085px;
+    left: 130px;
+    width: 100%;
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+/* trang finale */
+h2 {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #FFF;
+    line-height: 250px;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1440px;
+    flex-shrink: 0;
+    z-index: 99;
+    top: 6814px;
+    left: 500px;
+    z-index: 100;
+    text-shadow: 
+        -1px -1px 0 #615D73,  
+        1px -1px 0 #615D73,
+        -1px 1px 0 #615D73,
+        1px 1px 0 #615D73;
+}
+.parallax_finale img {
+    object-fit: cover;
+    z-index: 11;
+    position: absolute;
+    top: 6414px;
+    pointer-events: auto;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;
+}
